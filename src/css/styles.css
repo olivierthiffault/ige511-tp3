@@ -13,13 +13,9 @@ ul {
     overflow: hidden;
 }
 
-li {
-    display: inline-block;
-}
-
 li{
+    display: inline-block;
     color: black;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -36,15 +32,9 @@ li:hover {
 }
 
 .article-desc {
-    background-color: #c7c7c7;
-}
-
-.article-desc h3 {
     padding: 5%;
-}
-
-.article-desc p {
-    padding: 0 5% 5% 5%;
+    margin-bottom: 2%;
+    background-color: #c7c7c7;
 }
 
 .main-container {
@@ -76,6 +66,16 @@ li:hover {
 footer {
     background-color: #666666;
     padding: 2%;
+}
+
+footer p {
+    display: inline-block;
+}
+
+.acticle-footer {
+    display: flex;
+    flex-grow: 1;
+    color:aqua;
 }
 
 
