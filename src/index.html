@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
     <link rel="stylesheet" href="./css/main.css" type="text/css">
     <script src="./js/bootstrap.bundle.min.js"></script>
-    
 </head>
 
 <header>
@@ -21,42 +20,46 @@
 </header>
 
 <body>
-    <div class="main-container">
-        <div class="article-container">
-            <article class="article-desc">
-                <h3>Titre de l'article</h3>
-                <p class="article-desc-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, totam, velit animi ratione et deserunt aut sit adipisci maiores soluta temporibus ab quos quam minus quisquam commodi dicta nostrum. Molestias.</p>
-                <div class="acticle-footer">
-                    <p>01/12/2020</p>
-                    <p>Nom de l'auteur</p>
-                    <p class="article-link">Lire la suite</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3">
+                <div class="search-bar-container">
+                    <form>
+                        <input type="text" placeholder="Recherche">
+                      </form>
                 </div>
-            </article>
-            <article class="article-desc">
-                <h3>Titre de l'article</h3>
-                <p class="article-desc-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, totam, velit animi ratione et deserunt aut sit adipisci maiores soluta temporibus ab quos quam minus quisquam commodi dicta nostrum. Molestias.</p>
-            </article>
-        </div>
-        <div class="sidebar-right">
-            <div class="search-bar-container">
-                <form>
-                    <input type="text" placeholder="Recherche">
-                  </form>
+                <nav class="right-nav d-none d-xl-block">
+                    <h4>Categories:</h4>
+                    <ul>
+                        <li>Lien vers categorie A</li>
+                        <li>Lien vers categorie B</li>
+                        <li>Lien vers categorie C</li>
+                        <li>Lien vers categorie D</li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="right-nav">
-                <h4>Categories:</h4>
-                <ul>
-                    <li>Lien vers categorie A</li>
-                    <li>Lien vers categorie B</li>
-                    <li>Lien vers categorie C</li>
-                    <li>Lien vers categorie D</li>
-                </ul>
-            </nav>
-    
+            <div class="col-xl-9 order-xl-first">
+                <article class="article-desc">
+                    <h3>Titre de l'article</h3>
+                    <p class="article-desc-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, totam, velit animi ratione et deserunt aut sit adipisci maiores soluta temporibus ab quos quam minus quisquam commodi dicta nostrum. Molestias.</p>
+                    <div class="row">
+                        <p class="col-md-4">01/12/2020</p>
+                        <p class="col-md-4">Nom de l'auteur</p>
+                        <p class="col-md-4">Lire la suite</p>
+                    </div>
+                </article>
+                <article class="article-desc">
+                    <h3>Titre de l'article</h3>
+                    <p class="article-desc-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, totam, velit animi ratione et deserunt aut sit adipisci maiores soluta temporibus ab quos quam minus quisquam commodi dicta nostrum. Molestias.</p>
+                    <div class="row">
+                        <p class="col-md-4">01/12/2020</p>
+                        <p class="col-md-4">Nom de l'auteur</p>
+                        <p class="col-md-4">Lire la suite</p>
+                    </div>
+                </article>
+            </div>
         </div>
     </div>
-
-
 </body>
 
 <footer>
