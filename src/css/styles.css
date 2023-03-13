@@ -3,6 +3,18 @@ header {
   margin-bottom: 2%;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #666666;
+  padding: 2%;
+  margin-top: auto;
+}
+
 .nav-li {
   display: inline-block;
   color: black;
@@ -18,7 +30,12 @@ header {
 .article-desc {
   padding: 5% 5% 0 5%;
   margin-bottom: 2%;
-  background-color: #f5f5f5;
+}
+
+.article-container {
+  width: 90%;
+  height: 50%;
+  background-color: #c7c7c7;
 }
 
 .search-bar {
@@ -28,23 +45,18 @@ header {
 .search-bar-container {
   padding: 5%;
   margin-bottom: 5%;
-  background-color: #f5f5f5;
+  background-color: #c7c7c7;
   text-align: center;
 }
 
 .right-nav {
   padding: 5%;
-  background-color: #f5f5f5;
+  background-color: #c7c7c7;
 }
 
 .right-nav li {
   display: block;
   padding: 2% 0 0 5%;
-}
-
-footer {
-  background-color: #dadada;
-  padding: 2%;
 }
 
 .image-center {
