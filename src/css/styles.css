@@ -1,5 +1,5 @@
 header {
-  background-color: #dadada;
+  background-color: #666666;
   margin-bottom: 2%;
 }
 
@@ -63,21 +63,4 @@ footer {
 
 .logo-and-text {
   display: inline-block;
-}
-
-.solid-rectangle {
-  background-color: #dadada;
-}
-
-.interface-b-header {
-  padding-bottom: 10%;
-  margin-bottom: -8%;
-}
-
-.margin-row {
-  margin-bottom: 5%;
-}
-
-.interface-b-title {
-  padding-top: 2%;
 }
